@@ -1,0 +1,138 @@
+.header{
+    width: 100%;
+    height: 128px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.ad{
+    width: 100%;
+    height: 60px;
+}
+
+.ad a{
+    width: inherit;
+    height: inherit;
+}
+
+.ad a img{
+    width: inherit;
+    height: inherit;
+}
+
+.header-itembox{
+    background-color: #ffffff;
+    width: 100%;
+    height: 68px;
+    padding: 12px 0;
+    /* border-bottom: 1px solid rgba(93, 91, 91,0.2); */
+}
+
+.header-itembox .header-leftitems{
+    display: inline-block;
+    width: 199.4px;
+    vertical-align: middle;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+}
+.header-itembox .header-rightitems{
+    margin-right: 16px;
+    display: inline-block;
+    width: 1290.5px;
+    height: 44px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.header-rightitems .logo{
+    width: 195px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.header-rightitems .logo svg{
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+.header-rightitems .searchbar {
+    height: 44px;
+    width: 48%;
+    display: inline-block;
+    padding: 0 16px;
+    border-radius: 16px;
+    background-color: rgb(240, 240, 241);
+    vertical-align: m;
+}
+
+.header-rightitems .searchbar svg{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.header-rightitems .searchbar input{
+    width: calc(100% - 34px);
+    height: 100%;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    background-color: rgb(240, 240, 241);
+    vertical-align: middle;
+
+}
+.header-rightitems .searchbar input:focus{
+    width: calc(100% - 34px);
+    height: 100%;
+    display: inline-block;
+    border: unset;
+    outline: none;
+    vertical-align: middle;
+
+}
+
+.header-rightitems .searchbar .search-icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.header-leftitems .signin{
+    width: 134.5px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 0.8px solid rgb(224, 224, 226);
+    color: rgb(12, 12, 12);
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.header-leftitems .space{
+    width: 1px;
+    height: 24px;
+    display: inline-block;
+    background-color: rgb(224, 224, 226);
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0 12px;
+    margin-top: 7px !important;
+}
+
+.header-leftitems svg{
+    width: 24px;
+    height: 24px;
+    margin-top: 7px !important;
+}
+
+.signin svg{
+    width: 24px;
+    height: 24px;
+}

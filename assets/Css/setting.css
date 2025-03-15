@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: IRANYekan;
+    scrollbar-color: #c1c1c1 #fff;
+    scrollbar-width: thin;
+}
+
+/* For Webkit browsers (Chrome, Safari, etc.) */
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 4px;
+}
+
+@font-face {
+    font-family: IRANYekan;
+    src: url(../Fonts/iranyekanwebregular.e31c09af.woff2);
+}

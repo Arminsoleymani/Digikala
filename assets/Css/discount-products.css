@@ -1,0 +1,113 @@
+.discount-products-box{
+    width: 88%;
+    height: auto;
+    margin: 20px auto;
+    /* background-color: blue; */
+    border-radius: 16px;
+    border: 0.8px solid rgb(113, 112, 112,0.2);
+    padding: 0 12px;
+}
+
+.discount-products-title{
+    width: 100%;
+    height: 76px;
+    padding-top: 20px;
+    margin-bottom: 8px;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.discount-products-title span{
+    font-size: 21px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.discount-products-title svg{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.discount-products-list{
+    width: 100%;
+    height: 242.5px;
+    /* background-color: cadetblue; */
+    font-size: 0px;
+}
+.discount-products-box .discount-products-item{
+    width: 16.666667%;
+    height: 100%;
+    padding: 12px 8px;
+    display: inline-block;
+    /* background-color: crimson; */
+    border-left: 0.8px solid rgba(213, 213, 213, 0.54);
+    border-bottom: 0.8px solid rgba(213, 213, 213, 0.54);
+    vertical-align: top;
+}
+
+.brl-unset{
+    border-left: unset !important;
+}
+.brb-unset{
+    border-bottom: unset !important;
+}
+
+
+.discount-products-box .discount-products-list .discount-products-item img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+  .discount-products-box .discount-products-list .discount-products-item .dis{
+    width: 100%;
+    height: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    overflow: hidden;
+    color: rgb(98, 102, 109);
+  }
+
+  .discount-products-box .discount-products-list .discount-products-item .discount{
+    width: 34px;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(211, 47, 47);
+    border-radius: 16px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-top: 10px;
+  }
+  .discount-products-box .discount-products-list .discount-products-item .nprice{
+    width: 80px;
+    height: 24px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 65px;
+  }
+  .discount-products-box .discount-products-list .discount-products-item .pprice{
+    height: 21px;
+    padding-left: 20px;
+    margin: 10px auto;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    color: rgb(192, 194, 197);
+    text-decoration-line: line-through;
+  }
+  .discount-products-box .discount-products-list .discount-products-item svg{
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+    vertical-align: middle;
+  }

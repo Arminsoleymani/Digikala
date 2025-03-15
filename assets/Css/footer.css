@@ -1,0 +1,368 @@
+footer{
+    width: 100%;
+    padding-top: 32px;
+    margin-top: 48px;
+    border-top: 1px solid #f0f0f1;
+    
+}
+
+.footer-box{
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    /* background-color: #371f1f; */
+}
+
+.footer-firstbox{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.footer-firstbox .right{
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+    /* background-color: #5f1c1c; */
+}
+
+.footer-firstbox .left{
+    width: 138px;
+    height: 40px;
+    padding: 8px 10px;
+    display: inline-block;
+    border: 0.8px solid rgb(224, 224, 226);
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.footer-firstbox .right svg{
+    width: 195px;
+    height: 30px;
+}
+
+.footer-firstbox .left svg{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.footer-firstbox .left a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(161, 163, 168);
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.header-leftitems {
+    display: inline-block;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.header-leftitems .signin,
+.header-leftitems .space,
+.header-leftitems svg {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 4px;
+}
+
+.phone{
+    width: 100%;
+    height: 26.04px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(63, 64, 100);
+}
+.phone .space{
+    margin: 0 20px;
+    display: inline-block;
+}
+
+
+
+.feature{
+    margin-top: 20px;
+    width: 19.7%;
+    height: 104px;
+    padding: 12px 0;
+    display: inline-block;
+    font-size: 0;
+    text-align: center;
+}
+
+.feature svg{
+    width: 56px;
+    height: 56px;
+    display: block;
+    margin: 0 auto;
+}
+
+.feature .dis{
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(63, 64, 100);
+    
+}
+
+
+.footer-linkbox,
+.footer-contact{
+    width: 24.7%;
+    height: 270px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-contact{
+    padding-right: 30px;
+}
+.footer-contact svg{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-contact p{
+    width: 325px;
+    height: 34px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+.footer-contact .placeholder{
+    width: 261px;
+    height: 48px;
+    padding: 0 8px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: rgb(240, 240, 241);
+    text-align: center;
+    line-height: 48px;
+}
+
+.footer-contact .placeholder input{
+    width: 245px;
+    height: 32.25px;
+    padding: 0 8px;
+    font-size: 15px;
+    background-color: rgb(240, 240, 241);
+    border: unset;
+}
+.footer-contact .placeholder input:focus{
+    border: unset;
+    outline: unset;
+    caret-color: rgb(239, 64, 86);
+}
+
+.footer-contact .submit{
+    width: 54px;
+    height: 48px;
+    display: inline-block;
+    background-color: rgb(224, 224, 226);
+    border-radius: 8px;
+    vertical-align: top;
+    text-align: center;
+    line-height: 48px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer-linkbox .title{
+    width: 100%;
+    height: 33.6px;
+    margin-bottom: 8px;
+    /* background-color: aqua; */
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(63, 64, 100);
+}
+
+.footer-linkbox .link{
+    /* width: 100%; */
+    display: block;
+    height: 30.1px;
+    margin-bottom: 8px;
+    /* background-color: rgb(9, 76, 43); */
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(129, 133, 139);
+    line-height: 30.1px;
+}
+
+.downapp-box{
+    width: 100%;
+    height: 76px;
+    padding: 8px 20px;
+    margin-bottom: 28px;
+    background-color: rgb(60, 75, 109);
+    border-radius: 8px;
+    font-size: 0;
+}
+
+.downapp-box .right{
+    margin-top: 10px;
+    width: 288px;
+    height: 44px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.downapp-box .left{
+    margin-top: 10px;
+    width: calc(100% - 292px);
+    height: 44px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 16px;
+}
+.downapp-box .left img{
+    margin-right: 10px;
+    height: 44px;
+    line-height: 44px;
+    background-color: #ffffff;
+    border-radius: 4px;
+
+}
+
+.downapp-box .right img{
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    vertical-align: top;
+
+}
+.downapp-box .right span{
+    margin-right: 12px;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+}
+
+.footer-more{
+    width: 100%;
+    height: 224px;
+    padding: 32px 0;
+    border-top: 0.8px solid rgb(240, 240, 241);
+    font-size: 0;
+}
+
+.footer-more .right{
+    width: calc(100% - 466.5px);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-more .right h2{
+    font-size: 21px;
+    color: rgb(98, 102, 109);
+}
+.footer-more .right .moore{
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 400;
+    color: rgb(129, 133, 139);
+}
+.footer-more .box{
+    width: 108.6px;
+    height: 108.6px;
+    display: inline-block;
+    padding: 16px;
+    margin-right: 8px;
+    border: 0.8px solid rgb(224, 224, 226);
+    border-radius: 8px;
+    /* background-color: blue; */
+    vertical-align: top;
+}
+
+.footer-more .box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.copyright{
+    width: 100%;
+    padding: 88.66px;
+    padding: 32px 0;
+    font-size: 11px;
+    font-weight: 400;
+    border-top: 0.8px solid rgb(240, 240, 241);
+    text-align: center;
+    color: rgb(129, 133, 139);
+}
+
+.collab-box{
+    width: 100%;
+    height: 160px;
+    font-size: 0px;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+.collab-box .collab-box1,
+.collab-box .collab-box2{
+    height: 80px;
+    padding: 30px 20px;
+    display: inline-block;
+    background-color: rgb(241,240,240);
+    border-right: 0.8px solid rgb(224, 224, 226);
+    border-bottom: 0.8px solid rgb(224, 224, 226);
+}
+.collab-box .collab-box1{
+    width: 189px;
+}
+.collab-box .collab-box2{
+    width: 253px;
+}
+
+.collab-box .collab-box1 img,
+.collab-box .collab-box2 img{
+    height: 20px;
+}
+
+.supermarket {
+    position: relative;
+    z-index: 1;
+}
+
+.support {
+    position: relative;
+    z-index: 1;
+}
+
+footer .more{
+    display: block;
+    width: 100%;
+    height: 42px;
+    margin: 7px auto;
+    text-align: right;
+    color: rgb(25, 191, 211);
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+footer .more span,
+footer .more svg{
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+footer svg{
+    width: 18px;
+    height: 18px;
+  }

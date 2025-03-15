@@ -1,0 +1,141 @@
+.nav {
+    width: 100%;
+    height: 40.8px;
+    position: fixed;
+    top: 128px;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    /* color: white; */
+    padding: 0px 20px;
+    /* text-align: center; */
+    transition: transform 0.3s ease-in-out;
+    z-index: 99;
+    border-bottom: 1px solid rgba(93, 91, 91,0.2);
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+
+.hidden {
+    transform: translateY(-100%);
+    /* opacity: 0; */
+}
+
+
+.nav .cat{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: top;
+    margin-left: 12px;
+    overflow: hidden;
+}
+
+.nav .item{
+    position: relative;
+    color: rgb(98, 102, 109);
+    font-size: 12px;
+    font-weight: 200;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.nav .cat .layer,
+.nav .item .layer{
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: rgb(239, 64, 86);
+    left: 100%;
+    bottom: 0%;
+    transition: 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.nav .cat:hover .layer{
+    left:0;
+    bottom: 0%;
+}
+.nav .item:hover .layer{
+    left:0;
+    bottom: 0%;
+}
+
+.nav .item svg{
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.nav .item span{
+    display: inline-block;
+    height: 100%;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(98, 102, 109);
+}
+
+.nav .cat svg{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.nav .cat span{
+    display: inline-block;
+    height: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(63, 64, 100);
+}
+
+.nav .space{
+    width: 0.5px;
+    height: 15px;
+    display: inline-block;
+    background-color: rgb(224, 224, 226);
+    font-size: 30px;
+    font-weight: lighter;
+    /* margin: 0 12px; */
+    margin-top: 12px !important;
+    vertical-align: middle;
+}
+
+
+.nav .city-box{
+    display: inline-block;
+    width: 507px;
+    height: 100%;
+    text-align: left;
+}
+
+.nav .city-box .city{
+    width: 172.5px;
+    height: 85%;
+    border-radius: 16px;
+    background-color: rgb(254,246,239);
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.nav .city-box .city svg{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.nav .city-box .city span{
+    height: 100%;
+    font-size: 12px;
+    color: rgb(245, 127, 23);
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
+}

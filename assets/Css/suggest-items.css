@@ -1,0 +1,99 @@
+.suggest-itembox{
+    width: 88%;
+    height: 418px;
+    /* padding: 8px 20px; */
+    /* background-color: aquamarine; */
+    margin: 20px auto;
+    border-radius: 16px;
+    font-size: 0px;
+    border: 1px solid rgba(162, 162, 162, 0.3);
+    
+}
+
+.suggest-item-cat{
+    width: 25%;
+    height: 100%;
+    padding: 8px 20px;
+    display: inline-block;
+    border-left: 1px solid rgba(162, 162, 162, 0.3) ;
+    /* border-radius: inherit; */
+    /* background-color: burlywood; */
+    vertical-align: top;
+}
+.suggest-itembox>.left-side{
+    border: unset;
+}
+.suggest-title{
+    width: 100%;
+    height: 65.5px;
+    /* background-color: #0edbed; */
+}
+
+.suggest-title .title-name{
+    width: 100%;
+    height: 33.6px;
+    /* background-color: blue; */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.suggest-title .text-caption{
+    width: 100%;
+    height: 23.8px;
+    /* background-color: blueviolet; */
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(129, 133, 139);
+}
+
+.suggest-title~.item{
+    display: inline-block;
+    width: 146px;
+    height: 146px;
+    /* background-color: black; */
+    padding: 8px;
+}
+
+.suggest-title~.left{
+    border-left: 0.5px solid rgba(255, 255, 255, 0);
+}
+.suggest-title~.right{
+    border-right: 0.5px solid rgba(151, 151, 151, 0.3);
+}
+.suggest-title~.top{
+    border-top: 0.5px solid rgba(255, 255, 255, 0);
+}
+.suggest-title~.bottom{
+    border-bottom: 0.5px solid rgba(151, 151, 151, 0.3);
+}
+
+
+.suggest-title~.item>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.suggest-itembox .more{
+    display: block;
+    width: 100%;
+    height: 42px;
+    margin: 3px auto;
+    text-align: center;
+    color: rgb(25, 191, 211);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.suggest-itembox .more span,
+.suggest-itembox .more svg{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.suggest-itembox svg{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
